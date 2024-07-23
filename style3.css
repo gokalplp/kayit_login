@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.containerrules {
+    background-color: bisque;
+    width: 500px;
+    border: 1px solid black;
+    padding:20px;
+    margin:20px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.btn3 {
+    align-items: center;
+    background-color: rgb(62, 240, 86);
+    color:rgb(70, 70, 70);
+    border:none;
+    padding:10px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn3:hover {
+    background-color: rgb(1, 170, 1);
+}
+
+.agree {
+    margin-top: 10px;
+    cursor: pointer;
+}
